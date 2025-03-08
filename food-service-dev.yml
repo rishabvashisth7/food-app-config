@@ -1,0 +1,8 @@
+server:
+  port: 9092
+info:
+  app:
+    name: "Food Service inside dev"
+    description: "This is the foodservice in development"
+    version: "1.0.1"
+

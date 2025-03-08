@@ -1,0 +1,8 @@
+server:
+  port: 9099
+info:
+  app:
+    name: "Food Service inside prod"
+    description: "This is the foodservice in Production"
+    version: "1.0.0"
+
