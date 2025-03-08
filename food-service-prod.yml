@@ -4,5 +4,5 @@ info:
   app:
     name: "Food Service inside prod"
     description: "This is the foodservice in Production"
-    version: "{cipher}187ee1f4c5335b2214cdb84d6f19be44ca7d611e302cb724bc7d87282cd6b66a"
+    version: "{cipher}b40e207c87d98246d3817912907efaeb265bb01e4585ed811262dbae5b0dfdabd173f8ef74257dcc9464905d506f6b33"
 
