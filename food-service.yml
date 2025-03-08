@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/food_service?useSSL=false&serverTimezone=UTC
-    username: root
-    password: root
+    url: jdbc:mysql://localhost:3306/ed0057b6ed90661e869359a492944eb0002edeaaf5be26e41665cb76c3d65245?useSSL=false&serverTimezone=UTC
+    username: a0e18b54343303ef9b8e7319c540c7a237b27faf6e69b9d472d567736b08b987
+    password: a0e18b54343303ef9b8e7319c540c7a237b27faf6e69b9d472d567736b08b987
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
