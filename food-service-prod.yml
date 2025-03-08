@@ -3,6 +3,6 @@ server:
 info:
   app:
     name: "Food Service inside prod"
-    description: "This is the foodservice in Production"
+    description: "This is the foodservice in Production neww "
     version: "{cipher}b40e207c87d98246d3817912907efaeb265bb01e4585ed811262dbae5b0dfdabd173f8ef74257dcc9464905d506f6b33"
 
