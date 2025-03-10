@@ -5,4 +5,17 @@ info:
     name: "Food Service inside prod"
     description: "This is the foodservice in Production neww "
     version: "{cipher}b40e207c87d98246d3817912907efaeb265bb01e4585ed811262dbae5b0dfdabd173f8ef74257dcc9464905d506f6b33"
+spring:
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        sliding-window-size: 10
+        permitted-number-of-calls-in-half-open-state: 2
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10000
 
